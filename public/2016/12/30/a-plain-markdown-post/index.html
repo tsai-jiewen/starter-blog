@@ -1,74 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> A Plain Markdown Post - A Hugo website </title>
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="referrer" content="no-referrer">
-    <meta name="description" content="A website built through Hugo and blogdown." />
-    <meta property="og:site_name" content="A Hugo website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="/2016/12/30/a-plain-markdown-post/" />
-    <meta property="og:title" content="A Plain Markdown Post" />
-    <meta property="og:image" content="/" />
-    <meta property="og:description" content="A website built through Hugo and blogdown." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.74.3" />
 
-    <meta name="twitter:card" content="summary_large_image" />
+
+<title>A Plain Markdown Post - A Hugo website</title>
+<meta property="og:title" content="A Plain Markdown Post - A Hugo website">
+
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="/css/fonts.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
     
-    <meta name="twitter:title" content="A Plain Markdown Post" />
-    <meta name="twitter:description" content="A website built through Hugo and blogdown." />
-    <meta name="twitter:image" content="/" />
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    
+  </ul>
+</nav>
 
-    <link rel="canonical" href="/2016/12/30/a-plain-markdown-post/">
+      </header>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="/css/custom.css" />
-
+<main class="content" role="main">
+  <article class="article">
+    <h1 class="article-title">A Plain Markdown Post</h1>
+    
+    <span class="article-date">2016-12-30</span>
     
 
-    
-
-    <link rel="shortcut icon"
-        href="/images/favicon.png">
-
-    
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="A Hugo website" />
-    
-</head>
-
-<body>
-    
-    <div class="mt-xl header">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-auto">
-                <a href="/">
-                    <h1 class="name"></h1>
-                </a>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <ul class="nav nav-primary">
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
-    <div class="content">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-12 col-lg-8">
-                    <h1 class="mx-0 mx-md-4">A Plain Markdown Post</h1>
-                    <div class="markdown">
-                        
-    <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
+    <div class="article-content">
+      <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
 <ol>
 <li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
 <li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
@@ -84,40 +71,32 @@
 <p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>ext</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">new_post</span>(<span style="color:#e6db74">&#34;Post Title&#34;</span>, ext <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;.Rmd&#39;</span>)
 </code></pre></div>
+    </div>
+ 
+    <ul class="article-taxonomy">
+      
+    
+      
+  </article>
 
+</main>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss"></i> RSS feed</a>
+          </li>
+          <li>
+            <a href="https://github.com/mobybit/hugo-natrium-theme"><i class="fa fa-github"></i> Code</a>
+          </li>
+          <li>
+            <a href="/site-notice">Site notice</a>
+          </li>
+        </ul>
+      </footer>
+
     </div>
 
-    <section id="comments">
-    <div class="py-3 content">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-12 col-lg-8">
-                    <div class="comments">
-                        <script src="https://utteranc.es/client.js" repo=""
-                            issue-term="pathname" label="comment" theme="github-light" crossorigin="anonymous" async>
-                            </script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-
-
-    
-
-    
-
-    
-
-    
-    
-</body>
-
+  </body>
 </html>
+
