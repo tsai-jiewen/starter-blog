@@ -1,0 +1,26 @@
+{
+    "id": "DFCD20C3",
+    "path": "~/Desktop/starter-blog/themes/hugo-PaperMod/layouts/partials/toc.html",
+    "project_path": "themes/hugo-PaperMod/layouts/partials/toc.html",
+    "type": "html",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1610150611453.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "63,8",
+        "scrollLine": "52"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1610129248,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1610129248,
+    "read_only": false,
+    "read_only_alternatives": []
+}
